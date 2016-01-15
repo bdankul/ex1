@@ -1,0 +1,79 @@
+body {
+    background-color: #CCDDE3;
+    margin: 0 auto 0 auto;
+}
+
+header {
+    width: 800px;
+    height: 250px;
+    border: 1px black solid;
+    margin: 25px auto 0 auto;
+    
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    letter-spacing: 2px;
+}
+
+section {
+    width: 800px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    padding-top:20px;
+}
+
+article {
+    float: left;
+    margin-right: 20px;   
+}
+#olist {
+    margin-left:10px;
+}
+
+h1 {
+    margin-left: 20px; 
+    font-family: 'Archivo Narrow', sans-serif;    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+li {
+    font-family: 'Karla', sans-serif;
+    line-height: 2em;
+}
+
+footer {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #fc1561;
+}
+a:active {}
+
+#email-icon {
+    display: none;
+}
+
+footer img {
+    margin-bottom: -5px;
+    margin-right: 4px;
+}
+footer a:link {
+    color: #f0f79e;
+}
+footer a:hover {
+    letter-spacing: 2px;
+}
