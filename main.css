@@ -43,14 +43,27 @@ li {
 }
 
 footer {
+    width: 100%;
+    height: auto;
     position: fixed;
-    right: 20px;
+    left: 20px;
     bottom: 20px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1.3em;
+    font-size: 1em;
     letter-spacing: 1px;
+    color: #5b6576;
 }
 
+div#validate {
+    float: left;
+}
+
+div#emailRight {
+    float: right;
+    position: relative;
+    right: 50px;
+    font-size: 1.3em;
+}
 a:link {
     text-decoration: none;
     color: black;
@@ -63,15 +76,11 @@ a:hover {
 }
 a:active {}
 
-#email-icon {
-    display: none;
-}
 
-footer img {
-    margin-bottom: -5px;
-    margin-right: 4px;
-}
 footer a:link {
+    color: #f0f79e;
+}
+footer a:visited {
     color: #f0f79e;
 }
 footer a:hover {
