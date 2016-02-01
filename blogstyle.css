@@ -90,3 +90,11 @@ a.up:hover {
     color: yellow; 
     text-transform: uppercase; 
 	font-size: 40px;}
+
+#validate {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-family: 'muli', sans-serif;
+    font-size: 11px;    
+}
