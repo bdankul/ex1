@@ -30,11 +30,14 @@ article {
     margin-left:10px;
 }
 
-h1 {
+h2 {
     margin-left: 20px; 
     font-family: 'Archivo Narrow', sans-serif;    
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+h4 {
+    visibility: hidden;
 }
 
 li {
