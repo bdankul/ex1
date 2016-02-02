@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
     background: #b1c4df;
 }
@@ -17,7 +18,7 @@ header {
 section {
     position: absolute;
     margin: 30px auto;
-    width: 400px;
+    width: 500px;
     left: 250px;
     overflow-y: auto;
     font-family: 'Raleway', san-serif;
@@ -38,7 +39,7 @@ h2 {
 }
 h4{
     font-family: 'muli', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     padding-bottom: 10px;
 }
@@ -49,7 +50,7 @@ h3 {
     font-weight: 400;
     font-size: 1.5em;
 }
-h5{visibility: hidden;}
+h5{display: none;}
 p {
     padding:0 15px 0 15px;
     text-align: left;
@@ -57,6 +58,7 @@ p {
     line-height: 135%;
     margin-bottom: -10px;
     font-family: 'muli', sans-serif;
+    font-size: 14px;
 }
 article {
     text-align: center;
@@ -73,10 +75,11 @@ footer {
     border-color: white;
     border-width: 10px;
 }
-a:link {text-decoration: none;
-		color: #f0f79e;}
-a:visited {color:#f0f79e;}
-a:hover {color:#fc1561;}
+a:link, a:visited {
+    text-decoration: none;
+    color: #f0f79e;}
+a:hover {
+    color:#fc1561;}
 
 a.up:link {
     color: #f0f79e; 
@@ -91,7 +94,6 @@ a.up:hover {
     color: yellow; 
     text-transform: uppercase; 
 	font-size: 40px;}
-
 #validate {
     position: fixed;
     right: 10px;
