@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
     background-color: #CCDDE3;
     margin: 0 auto 0 auto;
@@ -29,7 +31,18 @@ article {
 #olist {
     margin-left:10px;
 }
-
+h1{
+   font-family: 'Archivo Narrow', sans-serif; 
+    letter-spacing: .85px;
+    position: fixed;
+    right: 220px;
+    top: 355px;
+    font-size: 1.5em;
+    font-family: 'karla', sans-serif;
+    color: #312545; 
+    text-transform: uppercase;
+    border-bottom: solid 1px #312545;
+}
 h2 {
     margin-left: 20px; 
     font-family: 'Archivo Narrow', sans-serif;    
@@ -88,4 +101,16 @@ footer a:visited {
 }
 footer a:hover {
     letter-spacing: 2px;
+}
+#talk {
+    float: right;
+    
+}
+div a {
+    font-family: 'Archivo Narrow', sans-serif; 
+    letter-spacing: .65px;
+    font-size: 1em;
+    font-family: 'karla', sans-serif;
+    color: #fc1561; 
+    text-transform: uppercase;
 }
